@@ -13,8 +13,8 @@ const Input=()=>{
         <label for="emailInput">Email:</label>
         <input id="emailInput" type="email"  onChange={(e)=>dispatch({type:"emailUpdate",payload:e.target.value})}></input>
         <p>Current values in store:</p>
-        <p className="output">Nmae: {nameState}</p>
-        <p className="output">Email: {emailState}</p>
+        <p className="output">Name - {nameState}</p>
+        <p className="output">Email - {emailState}</p>
         </>
     )
 }
